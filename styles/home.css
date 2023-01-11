@@ -1,0 +1,174 @@
+header {
+    background: url(../imagens/spidermanheader.jpg) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funko {
+    width: 20%;
+    padding: 8em 5% 5% 10%;
+    margin: 0;
+}
+
+.centro {
+    background-image: url(../imagens/thor_header.jpg);
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.centro h1 {
+    padding: 2%;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.centro p {
+    text-align: justify;
+    width: 40%;
+    color: #fff;
+    padding: 10% 5% 15% 55%;
+    font-size: 1em;
+}
+
+.catalogo {
+    height: 50vh;
+    background-size: cover;
+    padding: 2%;
+}
+
+.catalogo h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+}
+
+.alinhamento-e {
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.alinhamento-e img {
+    width: 100%;
+}
+
+.alinhamento-d {
+    text-align: justify;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    padding: 6em 10% 10% 55%;
+    font-size: 1em;
+}
+
+.alinhamento-d p {
+    margin: 0 0 3em 0;
+}
+
+.alinhamento-d a {
+    text-align: center;
+}
+
+
+@media(max-width:800px) {
+    .funko {
+        float: left;
+        padding: 12em 2% 2% 6%;
+        min-width: 25%;
+    }
+
+    .centro {
+        background-position: right;
+    }
+
+    .centro p {
+        text-align: center;
+    }
+
+    .centro p {
+        width: 100%;
+        padding: 5em 0;
+    }
+
+    .alinhamento-e {
+        float: none;
+    }
+
+    .alinhamento-e,
+    .alinhamento-d {
+        width: 100%;
+    }
+
+    .alinhamento-d {
+        padding: 0;
+        flex-wrap: wrap-reverse;
+        order: 1 3 2;
+    }
+
+    .alinhamento-d p {
+        margin: 0 0 3em 0;
+    }
+
+    .alinhamento-d a {
+        display: block;
+        position: center;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:500px) {
+
+    .funko {
+        float: left;
+        padding: 14em 2% 2% 5%;
+        min-width: 40%;
+    }
+
+    .centro {
+        background-position: right;
+    }
+
+    .centro p {
+        width: 100%;
+        padding: 5em 0;
+    }
+
+    .centro p {
+        text-align: center;
+    }
+
+    .alinhamento-e {
+        float: none;
+    }
+
+    .alinhamento-e,
+    .alinhamento-d {
+        width: 100%;
+    }
+
+    .alinhamento-d {
+
+        padding: 0;
+        flex-wrap: wrap-reverse;
+        order: 1 3 2;
+    }
+
+    .alinhamento-d p {
+        margin: 0 0 3em 0;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
